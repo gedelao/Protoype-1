@@ -18,7 +18,7 @@ public class FollowPlayer : MonoBehaviour
     }
 
     // this method will update after our vehicle is moved
-    void LateUpdate()
+    void Update()
     {
         //offest the camera behind the player by adding to the player's position
         transform.position = player.transform.position + offset;
